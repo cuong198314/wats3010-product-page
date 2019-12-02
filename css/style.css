@@ -1,0 +1,50 @@
+/* Site Styles Go Here */
+
+
+ .footer-flex {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  .footer-item-flex {
+    flex: 0 1 auto;
+  }
+
+  .body {
+    background-color: cyan;
+  }
+  :root {
+    --navbar-hover: goldenrod;
+  }
+  .navbar a:hover {
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: var(--navbar-hover);
+  }
+  .about{
+    background-color: var(--about-bg);
+    color: var(--icon-color)
+  }
+  
+  .services {
+    background-color: var(--services-bg);
+    color: var(--icon-color);
+  }
+  
+  .contact {
+    background-color: var(--contact-bg);
+    color: var(--icon-color);
+  }
+
+  .order: {
+    transition: transform .4s;
+  }
+  .order:hover {
+    transform: scale(1.1)
+  }
+
+  
+ 
+  
+ 
